@@ -1,0 +1,64 @@
+
+.row1 {
+ padding-top: 10rem !important;
+ background-position: 8% !important;
+}
+
+
+.living-room-background{
+    background-image: linear-gradient(to right, rgba(68, 70, 69, 0.7), rgba(224, 224, 224, 0.7)), url(../img/livingRoomBackground.jpg);
+}
+.kitchen-background{
+    background-image: linear-gradient(to right, rgba(68, 70, 69, 0.7), rgba(224, 224, 224, 0.7)), url(../img/kitchenBackground.jpg);
+}
+.bathroom-background{
+    background-image: linear-gradient(to right, rgba(68, 70, 69, 0.7), rgba(224, 224, 224, 0.7)), url(../img/bathroomBackground.jpg);
+}
+.young-room-background{
+    background-image: linear-gradient(to right, rgba(68, 70, 69, 0.7), rgba(224, 224, 224, 0.7)), url(../img/youngRoomBackground.jpg);
+
+}
+.custom-row {
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.texts h5 {
+    font-family: 'Cinzel', serif;
+}
+
+.texts p {
+    font-family: 'Playfair Display', serif;
+}
+@media (max-width:572px){
+    .texts{
+        margin:2rem 0;
+        order:1;
+    }
+    .col-sm-5{
+        order:2;
+    }
+}
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.living-room-img {
+    border-radius: 3rem;
+    box-shadow: 0 0 1em 0.2rem black;
+}
+
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.others{
+    margin-top: 0 !important;
+  
+}
